@@ -1,0 +1,66 @@
+ul li{list-style: none;}
+
+.text {
+  text-decoration: none;
+  color: rgb(55, 41, 41);
+}
+.text:visited {
+  color: rgb(5, 5, 5);
+}
+
+.text:hover {
+color: rgb(255, 255, 255);
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center; 
+  font-size: 20px; 
+  height:1000px;
+  width: 900px;
+  color: rgb(55, 41, 41);
+background: #a7cfdf; /* Old browsers */
+background: -moz-linear-gradient(top,  #a7cfdf 0%, #23538a 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #a7cfdf 0%,#23538a 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #a7cfdf 0%,#23538a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=0 ); /* IE6-9 */ 
+}
+
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  padding-top: 90px;
+  color: rgb(55, 41, 41);
+}
+
+.btn-outline-secondary {
+  background-color: rgb(128, 128, 128);
+  font-size: 18px;
+  color: rgb(55, 41, 41);
+  padding: 10px;
+  margin: 150px 1px 0px 0px;
+  border-radius: 5px;  
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border: 0;
+  
+}
+
+.btn-outline-secondary:hover {
+  background-color: rgb(72, 61, 61);
+  color: rgb(255, 255, 255);
+  margin: 2px;
+  transition: background-color ease 0.3s;
+  transform: scale(1.1);
+  
+}
+.error {
+  text-align: center;
+  font-size: 16px;
+}
+.error_h1 {
+  color: rgb(244, 10, 10);
+}
